@@ -6,6 +6,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.music {
+    font-family: 'Yesteryear', cursive;
+    font-size: 17rem;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
 
 #song-list {
   list-style-type: none;
@@ -22,8 +29,8 @@ li {
 }
 input {
   margin: auto;
-  padding: 0 300px;
-  margin-top: 10px;
+  margin-top: 50px;
+  
 }
 
 .btn.btn-primary {
