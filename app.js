@@ -12,7 +12,7 @@ function drawSongs(songList){
   var artist = document.getElementById('artist').value;
   var foo = document.getElementById('artistName');
   
-  foo.innerHTML = "Showing " + songList.length + "result for: " + artist;
+  foo.innerHTML = "Showing " + songList.length + " result for: " + artist;
   
   songListElem.innerHTML = "";
   var songs = "";
