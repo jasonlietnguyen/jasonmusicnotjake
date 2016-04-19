@@ -21,7 +21,7 @@ function drawSongs(songList){
     songs += '<li class="list-group-item"><div class="row">'
   + '<div class="col-sm-2"><img src="' + currentSong.albumArt + '" alt="album"/></div>'
   + '<div class="col-sm-3">Title: '  + currentSong.title + '<br>Collection: ' + currentSong.collection + '</div>'
-  + '<div class="col-sm-5"> <audio controls><source src="' + currentSong.preview + '" type="audio/ogg"></audio> </div><div class="col-sm-2">Price: $' + currentSong.price + '</div></div></li>';
+  + '<div class="col-sm-5"> <audio controls><source src="' + currentSong.preview + '" type="audio/ogg"></audio> </div><div class="col-sm-2">Price: $' + currentSong.price + '</div></div></li><br>';
   }
   songListElem.innerHTML = songs;
 }
