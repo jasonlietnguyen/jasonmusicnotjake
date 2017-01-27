@@ -23,12 +23,12 @@ body {
 li:hover {
   background-color: #ccc;
   padding: 20px;
-  transition: all .3s;
   opacity: 0.8;
 }
 li {
     opacity: 0.88;
     border-radius: 10px;
+    transition: all .4s;
 }
 input {
   margin: auto;
