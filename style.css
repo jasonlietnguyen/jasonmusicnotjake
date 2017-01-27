@@ -23,7 +23,7 @@ body {
 li:hover {
   background-color: #ccc;
   padding: 20px;
-  transition: all .85s;
+  transition: all .3s;
 }
 li {
     opacity: 0.88;
