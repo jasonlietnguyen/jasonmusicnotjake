@@ -19,9 +19,9 @@ function drawSongs(songList){
   for (var i = 0; i < songList.length; i++) {
     var currentSong = songList[i];
     songs += '<li class="list-group-item"><div class="row">'
-  + '<div class="col-sm-2"><img src="' + currentSong.albumArt + '" alt="album"/></div>'
-  + '<div class="col-sm-3">Title: '  + currentSong.title + '<br>Collection: ' + currentSong.collection + '</div>'
-  + '<div class="col-sm-5"> <audio controls style="cursor:pointer"><source src="' + currentSong.preview + '" type="audio/ogg"></audio> </div><div class="col-sm-2">Price: $' + currentSong.price + '</div></div></li><br>';
+  + '<div class="col-lg-2"><img src="' + currentSong.albumArt + '" alt="album"/></div>'
+  + '<div class="col-lg-3">Title: '  + currentSong.title + '<br>Collection: ' + currentSong.collection + '</div>'
+  + '<div class="col-lg-5"> <audio controls style="cursor:pointer"><source src="' + currentSong.preview + '" type="audio/ogg"></audio> </div><div class="col-lg-2">Price: $' + currentSong.price + '</div></div></li><br>';
   }
   songListElem.innerHTML = songs;
 }
